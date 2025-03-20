@@ -5,6 +5,6 @@
     docker login -u snehith507 -p dckr_pat_9z52vyGkCDCtQLdgdNOukVIsCOI
      docker tag test1 snehith507/capstone
      docker push snehith507/capstone
-    docker compose hub-d
+     docker-compose up -d
     
     
