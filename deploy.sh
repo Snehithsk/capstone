@@ -3,7 +3,7 @@
     sh 'chmod +x build.sh'
     sh './build.sh'
     docker login -u snehith507 -p dckr_pat_9z52vyGkCDCtQLdgdNOukVIsCOI
-    docker tag test snehith507/capstone
-    docker push snehith507/capstone
+    sudo docker tag test snehith507/capstone
+    sudo docker push snehith507/capstone
 
     
